@@ -12,9 +12,9 @@ You can install the plugin through its update site
 Usage
 -----
 
-Enable the builder for your project in Project/Configure. Then, for each
-file that you want to be minified, configure a minifier in the file's
-properties dialog.
+1. Enable the builder for your project in Project: `Configure` → `Enable Minify builder`.
+2. Then, for each file that you want to be minified, configure a minifier in the file's properties dialog.
+3. When you will `Build Project`, the plugin will build new minified files with the same names + the `.min` suffix.
 
 Version 0.9.2 supports both YUICompressor and Google Closure Compiler.
 
